@@ -7,6 +7,7 @@ Userscript that allows you to use BetterDiscord plugins in your browser, without
 3. Go to Tampermonkey dashboard and click on "BD Plugin Support" userscript to edit it
 4. Paste a BetterDiscord plugin at the end
 5. At the start of the plugin:
+
 | If the plugin starts with        | Replace the code with                  |
 | -------------------------------- | -------------------------------------- |
 | `//META{"name":"pluginname"}*//` | `META({"name":"pluginname"})`          |
